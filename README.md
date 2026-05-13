@@ -152,8 +152,8 @@ cd chrono-temporal-api-framework
 Create a `.env.docker` file:
 
 ```env
-DATABASE_URL=postgresql+asyncpg://temporal_user:temporal_pass@db:5432/temporal_api
-DATABASE_URL_SYNC=postgresql+psycopg2://temporal_user:temporal_pass@db:5432/temporal_api
+DATABASE_URL=
+DATABASE_URL_SYNC=
 APP_NAME=Chrono Temporal
 APP_VERSION=0.1.0
 DEBUG=True
